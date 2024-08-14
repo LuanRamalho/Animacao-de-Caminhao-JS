@@ -1,0 +1,169 @@
+#circle {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 50%;
+  animation: tires 0.3s infinite alternate;
+  position: fixed; 
+  left: 50%;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: 0px;
+  border: 25px solid black;
+  z-index: 1;
+}
+#circle2 {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 50%;
+  animation: tires 0.3s infinite alternate;
+  position: fixed; 
+  left: 50%;
+  margin-left: 150px;
+  top: 50%;
+  margin-top: 0px;
+  border: 25px solid black;
+  z-index: 1;
+}
+#road {
+  width: 100%;
+  height: 15px;
+  background-color: rgb(200,200,200);
+  border: 2px solid black;
+  position: fixed;
+  top: 50%;
+  margin-top: 95px;
+}
+
+#box {
+  width: 300px;
+  height: 250px;
+  background-color: red;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 2px solid black;
+  position: fixed;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -200px;
+  animation: truck-box 0.3s infinite alternate;
+}
+#box2 {
+  width: 180px;
+  height: 180px;
+  background-color: red;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  position: fixed;
+  left: 50%;
+  margin-left: 104px;
+  top: 50%;
+  margin-top: -130px;
+  animation: truck-box2 0.3s infinite alternate;
+}
+#window {
+  width: 100px;
+  height: 70px;
+  background-color: black;
+  border-radius: 3px;
+  position: fixed;
+  left: 50%;
+  margin-left: 180px;
+  top: 50%;
+  margin-top: -115px;
+  animation: truck-window 0.3s infinite alternate;
+}
+#sky {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,200,250);
+  position: fixed;
+  z-index: -1;
+}
+#green {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,250,100);
+  position: fixed;
+  top: 50%;
+  margin-top: 95px;
+  z-index: -1;
+}
+#move {
+  width: 200px;
+  height: 400px;
+  background-color: grey;
+  position: fixed;
+  top: 50%;
+  margin-top: -305px;
+  left: 50%;
+  margin-left: 1100;
+  animation: move-box 10s linear infinite ;
+  z-index: -1;
+  
+}
+#move2 {
+  width: 230px;
+  height: 350px;
+  background-color: grey;
+  position: fixed;
+  top: 50%;
+  margin-top: -255px;
+  left: 50%;
+  margin-left: 1100;
+  animation: move-box2 10s linear infinite;
+  z-index: -1;
+}
+.background {
+  height: 500px;
+  width: 100%;
+  background: url("http://i57.tinypic.com/2zr0svm.jpg") repeat-x left;
+  position: fixed;
+  top: 50%;
+  margin-top: -400px;
+  z-index: -1;
+}
+.background2 {
+  height: 500px;
+  width: 100%;
+  background: url("http://i62.tinypic.com/2i0ewye.jpg") repeat-x left;
+  position: fixed;
+  top: 50%;
+  margin-top: 100px;
+  z-index: -1;
+}
+
+@keyframes tires {
+  100%{height: 40px; margin-top: 10px}
+}
+
+@keyframes truck-box {
+  100%{margin-top: -195px;}
+}
+@keyframes truck-box2 {
+  100%{margin-top: -125px;}
+}
+@keyframes truck-window {
+  100%{margin-top: -110px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
